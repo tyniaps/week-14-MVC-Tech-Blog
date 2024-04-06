@@ -1,4 +1,4 @@
-const Sequelize = require('sequalize');
+const Sequelize = require('sequelize');
 require('dotenv').config();
 
 let sequelize;
@@ -12,6 +12,6 @@ sequelize = new Sequelize(
         dialect: 'mysql',
         port: 3001
     }
-)
+);
 
 module.exports = sequelize;

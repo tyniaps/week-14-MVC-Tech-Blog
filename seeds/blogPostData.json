@@ -1,0 +1,15 @@
+[
+    {
+        "title": "The Trinity of Front-End Web Development",
+        "description": "HTML, CSS and Javascript are the main 3 languages used in front-end web-development. HTML provides structure, CSS provides styling and Javascript provides interactivity.",
+        "date_created": "03 December 2023",
+        "user_id": "1"
+    },
+    {
+        "title": "Search Engine Optimization",
+        "description": "SEO is the process of orienting your website so that it can gain better visibility on search engines such as Google.",
+        "date_created": "25 January 2024",
+        "user_id": "2"
+    }
+
+]
