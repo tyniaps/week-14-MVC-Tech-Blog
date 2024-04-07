@@ -1,0 +1,15 @@
+<div class="container">
+
+    {{#each BlogPosts as |BlogPost|}}
+  
+  <div class="card text-bg-secondary mb-3 mx-auto" style="max-width: 40rem;">
+        <div class="card-header">Posted by {{blogPost.user.name}} on {{format_date blogPost.date_created}}</div>
+        <div class="card-body">
+          <h5 class="card-title">{{blogPost.title}}</h5>
+          <p class="card-text">{{blogPost.description}}</p>
+        </div>
+    </div>
+
+    {{/each}}
+
+</div>
